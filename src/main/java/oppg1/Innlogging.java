@@ -46,8 +46,8 @@ public class Innlogging extends HttpServlet {
         out.println("</head>");
         out.println("<body>");
         
-        // Inn noe kode her i forbindelse med evt. feilmeldinger?
-        out.println(feilmelding); //evt. html for RØD !!!
+       
+        out.println(feilmelding); 
 
         out.println("<form action=\"" + "innlogging" + "\" method=\"post\">");
 		out.println("    <p>Passord: <input type=\"password\" name=\"passord\" /></p>");
